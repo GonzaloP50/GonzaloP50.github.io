@@ -21,7 +21,7 @@ header{
 
 aside{
 /**	background-color: rebeccapurple;**/
-	width:20%;
+	width:15%;
 	position: fixed;
 	display:inline-block;
 
@@ -32,10 +32,12 @@ aside{
           flex-direction: column;
 		  justify-content:space-evenly;
 		  height:70vh;
+		  align-items: center;
         }
 
-#foto_tel, #foto_mail{
-	height: 10vh;
+.contenedor i {
+	font-size:3em;
+	align-items: center;
 }
 
 /**#celda2{
