@@ -3,15 +3,17 @@
 	padding:0;
 	box-sizing: border-box;
 	background: rgba(237, 237, 248);
-	font-family: 'roboto','Raleway', sans-serif;
+	font-family: 'Poppins','Raleway', sans-serif;
 }
 
 header{
 	width:80%;
 	position: fixed;
+	padding:2%;
 	left:20%;
 	z-index: 100;
 	text-align: center;
+		
 }
 
 #titulo{
@@ -25,6 +27,8 @@ aside{
 	width:20%;
 	position: fixed;
 	display:inline-block;
+	border-right:dashed blue 0.5px;
+	
 
 }
 #MiFoto{
@@ -41,13 +45,20 @@ aside{
 
 .contenedor i {
 	font-size:2em;
-
+	
 }
-
+.Boton{
+	width: 100%;
+	border:none;
+	cursor: pointer;
+}
+.Boton:hover{
+	background-color: yellow;
+}
 main{
 /**	background-color: yellow;**/
 	position: relative;
-	padding-top: 5em;
+	padding-top: 8em;
 	left:20%;
 	width:80%;
 	line-height:1.3em;
@@ -55,6 +66,14 @@ main{
 
 #SobreMi{
 	padding:1em;
+}
+
+.VentanaTel{
+	position: fixed;
+	top: 40%;
+	left: 10%;
+	transform: translate(0%, 0%) scale(0);
+	background-color: rgb(229, 255, 0);
 }
 
 
