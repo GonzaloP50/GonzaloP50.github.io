@@ -2,8 +2,8 @@
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
-	background: rgba(237, 237, 248);
-	font-family: 'Poppins','Raleway', sans-serif;
+	background: rgba(201,212,227);
+	font-family: 'roboto','Poppins','Raleway', sans-serif;
 }
 
 header{
@@ -28,8 +28,7 @@ aside{
 	position: fixed;
 	display:inline-block;
 	border-right:dashed blue 0.5px;
-	
-
+	background: rgba(128, 155, 188);
 }
 #MiFoto{
 	height:30vh;
@@ -41,16 +40,18 @@ aside{
 		  justify-content:space-evenly;
 		  height:100vh;
 		  align-items: center;
+	background: rgba(128, 155, 188);
         }
 
 .contenedor i {
 	font-size:2em;
-	
+	background: rgba(128, 155, 188);
 }
 .Boton{
 	width: 100%;
 	border:none;
 	cursor: pointer;
+	background: rgba(128, 155, 188);
 }
 .Boton:hover{
 	background-color: yellow;
