@@ -18,27 +18,24 @@
 <body>
     <header>
         <div id="titulo">
-         <h1>Curriculum Vitae de Lucas Owens</h1>
-         <h4>Un tipo peola</h4>
+         <h1>C.V. de Gonzalo Puigcernau</h1>
+         <h4>Ingeniero Electrónico</h4>
 		</div>
     </header>
-	 <aside>
-		
-    
+	
+    <aside>
 		<div class="contenedor">
       <div>
-        <figure id="foto_perfil" >
-          <img src="lucas.jpg" alt="Foto de perfil" id="MiFoto">
-            <figcaption id="pie_foto">
-                <h4 id="Foto_perfil">Lucas Owen</h4>
-           </figcaption>
-          </figure>
+        <picture>
+          <source media="(min-width: 465px)" srcset="Yo.png">
+          <img src="YoMovil.png" id="MiFotoMovil">
+        </picture>
       </div>
 			<div id="celda1">
-        <button class="Boton"><i class="fa-solid fa-phone-volume"></i>Telefono</button>
+        <button class="Boton"><i class="fa-solid fa-address-card"></i>Contacto</button>
 			</div>
 			<div id="celda2">
-        <button class="Boton"><i class="fa-solid fa-at"></i>eMail</button>
+        <button class="Boton"><i class="fa-solid fa-user"></i>Personales</button>
 				<!--<h4>Estemuchacho@mail.com</h4>-->
 			</div>
 			<div id="celda3">
@@ -80,39 +77,40 @@
             </section>
         </article>
         <article>
-            <table>
-                <tr>
-                  <th>Datos personales</th>
-                </tr>
-                <tr>
-                  <td>Fecha de nacimiento</td>
-                  <td>30/04/1972</td>
-                </tr>
-                <tr>
-                  <td>Lugar de nacimiento</td>
-                  <td>Villa Elisa, E.R.</td>
-                </tr>
-                <tr>
-                    <td>Lugar de Residencia</td>
-                    <td>Santa Fe, S.F.</td>
-                  </tr>
-                  <tr>
-                    <td>Nacionalidad</td>
-                    <td>Argentina</td>
-                  </tr>
-              </table>
+            
         </article>   
     </main>
-    <div id="VentanaTel">
-      <button id="CerrarTel">X</button>
-      +54 342 5656566
+    <div class="Emergente" id="VentanaContacto">
+      <button class="Boton" id="CerrarContacto">X</button>
+      <p><i class="fa-solid fa-phone-volume"></i>+54 342 5656566</p>
+      <p><i class="fa-solid fa-at"></i>gllmm@caca.com</p>
     </div>
-    <div id="VentanaMail">
-      <button id="CerrarMail">X</button>
-      owen@gmail.com
+    <div class="Emergente" id="VentanaPersonal">
+      <button class="Boton" id="CerrarPersonal">X</button>
+      <table>
+        <tr>
+          <th>Datos personales</th>
+        </tr>
+        <tr>
+          <td>Fecha de nacimiento</td>
+          <td>30/04/1972</td>
+        </tr>
+        <tr>
+          <td>Lugar de nacimiento</td>
+          <td>Villa Elisa, E.R.</td>
+        </tr>
+        <tr>
+            <td>Lugar de Residencia</td>
+            <td>Santa Fe, S.F.</td>
+          </tr>
+          <tr>
+            <td>Nacionalidad</td>
+            <td>Argentina</td>
+          </tr>
+      </table>
     </div>
-    <div id="VentanaEstudios">
-      <button id="CerrarEstudios">X</button>
+    <div class="Emergente" id="VentanaEstudios">
+      <button class="Boton" id="CerrarEstudios">X</button>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero commodi nihil magnam pariatur eum cum mollitia, iusto deleniti nesciunt quas laborum saepe in sunt ipsa ab neque deserunt dolores eos?
     </div>
    

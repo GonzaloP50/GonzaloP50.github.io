@@ -1,20 +1,20 @@
 document.getElementById("celda1").onclick=function(){
-	document.getElementById("VentanaTel").style.display="block";
-	document.getElementById("VentanaTel").style.backgroundColor="yellow";
+	document.getElementById("VentanaContacto").style.display="block";
 }
 
-document.getElementById("CerrarTel").onclick=function(){
-	document.getElementById("VentanaTel").style.display="none";
+document.getElementById("CerrarContacto").onclick=function(){
+	document.getElementById("VentanaContacto").style.display="none";
 }
+
 
 document.getElementById("celda2").onclick=function(){
-	document.getElementById("VentanaMail").style.display="block";
-	document.getElementById("VentanaMail").style.backgroundColor="yellow";
+	document.getElementById("VentanaPersonal").style.display="block";
 }
 
-document.getElementById("CerrarMail").onclick=function(){
-	document.getElementById("VentanaMail").style.display="none";
+document.getElementById("CerrarPersonal").onclick=function(){
+	document.getElementById("VentanaPersonal").style.display="none";
 }
+
 
 document.getElementById("celda3").onclick=function(){
 	document.getElementById("VentanaEstudios").style.display="block";
