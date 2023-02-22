@@ -90,6 +90,7 @@ main{
 	text-decoration: underline blue 2px;
 }
 
+
 .Emergente{
 	padding: 2%;
 	position: fixed;
@@ -100,12 +101,24 @@ main{
 	box-shadow: 10px 5px 5px black;
 	display:none;
 }
+.Reemplazo{
+	width:80%;
+	padding: 2%;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	line-height:2em;
+	border:solid blue 0.5px;
+	box-shadow: 10px 5px 5px black;
+	display:none;
+}
+
 footer{
 	background-color: grey;
 	text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
 	/* For mobile phones: */
 	header{
 		width:70%;

@@ -18,6 +18,7 @@ document.getElementById("CerrarPersonal").onclick=function(){
 
 document.getElementById("celda3").onclick=function(){
 	document.getElementById("VentanaEstudios").style.display="block";
+	///document.getElementById("VentanaEstudios").style.overflow="scroll";
 }
 
 document.getElementById("CerrarEstudios").onclick=function(){
