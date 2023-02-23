@@ -24,3 +24,10 @@ document.getElementById("celda3").onclick=function(){
 document.getElementById("CerrarEstudios").onclick=function(){
 	document.getElementById("VentanaEstudios").style.display="none";
 }
+document.getElementById("celda4").onclick=function(){
+	document.getElementById("VentanaTrabajo").style.display="block";
+}
+
+document.getElementById("CerrarTrabajo").onclick=function(){
+	document.getElementById("VentanaTrabajo").style.display="none";
+}
