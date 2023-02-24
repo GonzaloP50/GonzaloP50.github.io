@@ -31,3 +31,19 @@ document.getElementById("celda4").onclick=function(){
 document.getElementById("CerrarTrabajo").onclick=function(){
 	document.getElementById("VentanaTrabajo").style.display="none";
 }
+
+document.getElementById("celda5").onclick=function(){
+	document.getElementById("VentanaResumen").style.display="block";
+}
+
+document.getElementById("CerrarResumen").onclick=function(){
+	document.getElementById("VentanaResumen").style.display="none";
+}
+
+document.getElementById("celda6").onclick=function(){
+	document.getElementById("VentanaOtros").style.display="block";
+}
+
+document.getElementById("CerrarOtros").onclick=function(){
+	document.getElementById("VentanaOtros").style.display="none";
+}

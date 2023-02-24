@@ -8,23 +8,25 @@
     <meta property="og:url" content="https://gonzalop50.github.io/"/>
     <meta property="og:image" content="https://gonzalop50.github.io/yo.png"/>
     <meta property="og:description" content="Ingeniero Electrónico"/>
-    <title>C.V. Lucas Owens</title>
+    <title>C.V. Gonzalo Puigcernau</title>
     <link rel="icon" type="image/x-icon" href="lucas.jpg">
     <link rel="stylesheet" href="estilo.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c7915a878a.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header id="encabezado">
         <div id="titulo">
          <h1>C.V. de Gonzalo Puigcernau</h1>
          <h4>Ingeniero Electrónico</h4>
-		</div>
+		    </div>
     </header>
 	
     <aside>
@@ -55,6 +57,7 @@
       </div>
 		</div>
     </aside>
+    
     <main>
         <article id="SobreMi">
             <h3 id="TituloArticulo">Sobre mi</h3>
@@ -63,24 +66,16 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio voluptatum blanditiis laudantium soluta ut debitis amet aliquam nam aliquid omnis adipisci ducimus incidunt labore, natus quas quaerat numquam totam!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio voluptatum blanditiis laudantium soluta ut debitis amet aliquam nam aliquid omnis adipisci ducimus incidunt labore, natus quas quaerat numquam totam!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio voluptatum blanditiis laudantium soluta ut debitis amet aliquam nam aliquid omnis adipisci ducimus incidunt labore, natus quas quaerat numquam totam!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio voluptatum blanditiis laudantium soluta ut debitis amet aliquam nam aliquid omnis adipisci ducimus incidunt labore, natus quas quaerat numquam totam!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio voluptatum blanditiis laudantium soluta ut debitis amet aliquam nam aliquid omnis adipisci ducimus incidunt labore, natus quas quaerat numquam totam!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio voluptatum blanditiis laudantium soluta ut debitis amet aliquam nam aliquid omnis adipisci ducimus incidunt labore, natus quas quaerat numquam totam!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio voluptatum blanditiis laudantium soluta ut debitis amet aliquam nam aliquid omnis adipisci ducimus incidunt labore, natus quas quaerat numquam totam!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio voluptatum blanditiis laudantium soluta ut debitis amet aliquam nam aliquid omnis adipisci ducimus incidunt labore, natus quas quaerat numquam totam!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio voluptatum blanditiis laudantium soluta ut debitis amet aliquam nam aliquid omnis adipisci ducimus incidunt labore, natus quas quaerat numquam totam!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio voluptatum blanditiis laudantium soluta ut debitis amet aliquam nam aliquid omnis adipisci ducimus incidunt labore, natus quas quaerat numquam totam!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio voluptatum blanditiis laudantium soluta ut debitis amet aliquam nam aliquid omnis adipisci ducimus incidunt labore, natus quas quaerat numquam totam!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio voluptatum blanditiis laudantium soluta ut debitis amet aliquam nam aliquid omnis adipisci ducimus incidunt labore, natus quas quaerat numquam totam!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio voluptatum blanditiis laudantium soluta ut debitis amet aliquam nam aliquid omnis adipisci ducimus incidunt labore, natus quas quaerat numquam totam!  
-          </section>
+            </section>
         </article> 
     </main>
+    <!--Los "div" de abajo son las ventanas que se abren con los vínculos de la barra de navegación(JS las visibiliza o las oculta)-->
     <div class="Emergente" id="VentanaContacto">
       <button class="Boton" id="CerrarContacto">X</button>
       <p><i class="fa-solid fa-phone-volume"></i>+54 342 5656566</p>
       <p><i class="fa-solid fa-at"></i>gllmm@caca.com</p>
     </div>
+   
     <div class="Emergente" id="VentanaPersonal">
       <button class="Boton" id="CerrarPersonal">X</button>
       <table>
@@ -105,6 +100,7 @@
           </tr>
       </table>
     </div>
+   
     <div class="Reemplazo" id="VentanaEstudios">
       <button class="Boton" id="CerrarEstudios">X</button>
       <ul>
@@ -135,6 +131,7 @@
         </li>
       </ul>
     </div>
+    
     <div class="Reemplazo" id="VentanaTrabajo">
       <button class="Boton" id="CerrarTrabajo">X</button>
       <ul>
@@ -164,8 +161,56 @@
         </li>
       </ul>
     </div>
-    <footer>
-        Ultima actualización 22/2/23
+    
+    <div class="Emergente" id="VentanaResumen">
+      <button class="Boton" id="CerrarResumen">X</button>
+      <a href="vi.pdf">Resumen</a>
+    </div>
+    
+    <div class="Reemplazo" id="VentanaOtros">
+      <button class="Boton" id="CerrarOtros">X</button>
+      <div id="carouselExampleCaptions" class="carousel slide" style="background-color: rgb(61, 61, 61)">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: rgb(61, 61, 61)"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: rgb(61, 61, 61)"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: rgb(61, 61, 61)"></button>
+        </div>
+        <div class="carousel-inner" style="background-color: rgb(61, 61, 61)">
+          <div class="carousel-item active">
+            <img src="coro2.jpeg" class="d-block w-100" alt="Cantando en el coro">
+            <div class="carousel-caption d-none d-md-block" style="background-color: rgb(61, 61, 61)">
+              <h5 style="background-color: rgb(61, 61, 61)">Integrando el coro</h5>
+              <p style="background-color: rgb(61, 61, 61)">Encuentro coral Alta Gracia 2022</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-color: rgb(61, 61, 61)">
+            <img src="kayak1.jpg" class="d-block w-100" alt="Imágenes de kayaks">
+            <div class="carousel-caption d-none d-md-block" style="background-color: rgb(61, 61, 61)">
+              <h5 style="background-color: rgb(61, 61, 61)">En el rio Paraná</h5>
+              <p style="background-color: rgb(61, 61, 61)">En contacto con la naturaleza, acampando en el Paraná.</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-color: rgb(61, 61, 61)">
+            <img src="cayasta.JPG" class="d-block w-100" alt="Grupo de palistas">
+            <div class="carousel-caption d-none d-md-block" style="background-color: rgb(61, 61, 61)">
+              <h5 style="background-color: rgb(61, 61, 61)">Travesia Club Azopardo</h5>
+              <p style="background-color: rgb(61, 61, 61)">Socio del club nautico azopardo, disfrutando en grupo de la naturaleza.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden" style="background-color: rgb(61, 61, 61)">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden" style="background-color: rgb(61, 61, 61)">Next</span>
+        </button>
+      </div>
+     </div>
+   
+     <footer id="Pie">
+        Ultima actualización 24/2/23
     </footer>
     <script src="funciones.js"></script>
 </body>
