@@ -17,5 +17,5 @@ Cosas que faltan:
 -estilo de la tabla
 -estilo de las listas
 -estilo del enlace a resumen
--el resumen en pdf
+-el resumen en pdf (falta el qr, agregar la www)
 -sacar los estilos del carrusell y llevarlos al css
