@@ -52,10 +52,6 @@ document.getElementById("CerrarEstudios").onclick=function(){
 document.getElementById("celda4").onclick=function(){
 	cerrarTodo();
 	ventanaTrab.setAttribute('style', 'display: block');
-	window.scroll({
-		top: 0,
-		behavior: 'smooth'
-	  });
 }
 
 document.getElementById("CerrarTrabajo").onclick=function(){
