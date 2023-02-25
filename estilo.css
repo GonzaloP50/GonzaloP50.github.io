@@ -107,6 +107,7 @@ main{
 	box-shadow: 10px 5px 5px black;
 	display:none;
 }
+
 .Reemplazo{
 	width:80%;
 	padding: 2%;
@@ -128,12 +129,31 @@ main{
 	z-index: 100;
 	background: rgb(238, 243, 248);
 }
+a:link {
+	text-decoration: none;
+	color:black;
+  }
+
+a:hover {
+	text-decoration: none;
+	background-color: rgba(201,212,227);
+	border:solid blue 1px;
+	box-shadow: 10px 5px 5px black;
+ }
+
+/**Estilos modificados al carrusell de bootstrap**/
 .d-block{
 	height: 100vh;
 	width: auto;
 }
+.carousel,.carousel-indicators button,.carousel-inner, .carousel-item{
+	background-color: rgb(61, 61, 61);
+}
+.carousel-caption,.carousel-caption h5,.carousel-caption p{
+	background-color: rgb(61, 61, 61);
+}
 
-
+/**Fin de estilos modificados al carrusell de bootstrap**/
 tbody tr:nth-child(even) {
 	background-color: #bde4f7;
   }
@@ -160,8 +180,12 @@ footer{
 	#MiFotoMovil{
 		height:13vh;
 	}
+	.Emergente{
+		top:30%;
+	}
 	.Reemplazo{
 		padding: 1%;
+		top:27%;
 	}
 	#VentanaOtros{
 		width:100%;

@@ -60,7 +60,7 @@
     
     <main>
         <article id="SobreMi">
-            <h3 id="TituloArticulo">Sobre mi</h3>
+            <h3 id="TituloArticulo">Sobre el proyecto</h3>
             <section>
             Este proyecto tiene doble finalidad:<br> -Presentarlo como proyecto final del curso "Argentina programa 4.0 - Primeros pasos del desarrollo front end".<br> -Dar los primeros pasos para actualizar mi CV personal, por lo que la información es real aunque no completa.<br>
 Herramientas y recursos utilizados.<br> -"@media" de css, "metaviewport" y "picture" para hacerlo responsivo.<br> -Boostrap para insertar un carrusell de imágenes (en el apartado "otros").<br> -Fuentes de google font (roboto como primera opción) e íconos de font awesome para enlaces.<br> -Tecnología "og" para que envíe las miniaturas si se comparte por redes sociales.<br>
@@ -72,8 +72,8 @@ Desde ya que comprendo que sería muy útil asesorarme por un diseñador gráfic
     <!--Los "div" de abajo son las ventanas que se abren con los vínculos de la barra de navegación(JS las visibiliza o las oculta)-->
     <div class="Emergente" id="VentanaContacto">
       <button class="Boton" id="CerrarContacto">X</button>
-      <p><i class="fa-solid fa-phone-volume"></i>+54 342 5656566</p>
-      <p><i class="fa-solid fa-at"></i>gllmm@caca.com</p>
+      <p><i class="fa-solid fa-phone-volume"></i>+54 342 4233747</p>
+      <p><i class="fa-solid fa-at"></i>gonzalopuigcernau@gmail.com</p>
     </div>
    
     <div class="Emergente" id="VentanaPersonal">
@@ -136,27 +136,27 @@ Desde ya que comprendo que sería muy útil asesorarme por un diseñador gráfic
       <button class="Boton" id="CerrarTrabajo">X</button>
       <ul>
         <li>
-          <h4>Universitario: Ingeniero Electrónico</h4>
-          <p>Recibido en la UTN regional Paraná en 1999</p>
+          <h4>Gervasoni Ingeniería srl (Trabajo actual)</h4>
+          <p>Ingreso: 1999</p>
+          <p>Me desempeño como ingeniero en comunicaciones, a cargo de personal técnico, soporte directo a importantes empresas.</p>
         </li>
         <li>
-          <h4>Secundario: Técnico Mecánico</h4>
-          <p>Recibido en la ENET N°1 Herminio J quiroz</p>
+          <h4>Gustavo Alcain comunicaciones</h4>
+          <p>1996 - En Paraná entre rios - mientras cursaba los estudios de Ingeniería.</p>
+          <p>Mi primer trabajo formal (contrato de dos años), como técnico en telefonía</p>
         </li>
         <li>
-          <h4>Primario: </h4>
-          <p>Recibido en la escuela normal de villa elisa</p>
+          <h4>Grand Prix</h4>
+          <p>1998 - En Paraná entre rios - mientras cursaba los estudios de Ingeniería.</p>
+          <p>A cargo del taller de reparaciones e instalación de "telecentros".</p>
         </li>
         <li>
-          <h4>Otros cursos</h4>
+          <h4>Otros trabajos (informales)</h4>
             <ul>
-                <li>CCNA (Módulos 1 a 3)</li>
-                <li>Inglés</li>
-                <li>Argentina Programa</li>
-                <li>Argentina Programa 4.0</li>
-                <li>CCNA (Módulos 1 a 3)</li>
-                <li>Inglés</li>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sint, doloremque minus vitae ipsa enim debitis deserunt doloribus quisquam voluptate facilis maxime iste necessitatibus quaerat cum veritatis adipisci ratione quae.</p>
+              <li>Instalación de alarmas (emprendimiento particular)</li>
+              <li>Fabricación de calefones solares (con mi padre, durante la secundaria)</li>
+              <li>Clases particulares de matemática y física</li>
+              <li>Camarógrafo en eventos</li>
             </ul>
         </li>
       </ul>
@@ -164,53 +164,55 @@ Desde ya que comprendo que sería muy útil asesorarme por un diseñador gráfic
     
     <div class="Emergente" id="VentanaResumen">
       <button class="Boton" id="CerrarResumen">X</button>
-      <a href="cv.pdf">Resumen</a>
+      <a href="cv.pdf">Resúmen PDF</a>
     </div>
     
     <div class="Reemplazo" id="VentanaOtros">
       <button class="Boton" id="CerrarOtros">X</button>
-      <div id="carouselExampleCaptions" class="carousel slide" style="background-color: rgb(61, 61, 61)">
+      <!--comienzo del carrusell "traido" de bootstrap-->
+      <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: rgb(61, 61, 61)"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: rgb(61, 61, 61)"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: rgb(61, 61, 61)"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3""></button>
         </div>
-        <div class="carousel-inner" style="background-color: rgb(61, 61, 61)">
+        <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="coro2.jpeg" class="d-block w-100" alt="Cantando en el coro">
-            <div class="carousel-caption d-none d-md-block" style="background-color: rgb(61, 61, 61)">
-              <h5 style="background-color: rgb(61, 61, 61)">Integrando el coro</h5>
-              <p style="background-color: rgb(61, 61, 61)">Encuentro coral Alta Gracia 2022</p>
+            <div class="carousel-caption d-none d-md-block" >
+              <h5>Integrando el coro</h5>
+              <p>Encuentro coral Alta Gracia 2022</p>
             </div>
           </div>
-          <div class="carousel-item" style="background-color: rgb(61, 61, 61)">
+          <div class="carousel-item">
             <img src="kayak1.jpg" class="d-block w-100" alt="Imágenes de kayaks">
-            <div class="carousel-caption d-none d-md-block" style="background-color: rgb(61, 61, 61)">
-              <h5 style="background-color: rgb(61, 61, 61)">En el rio Paraná</h5>
-              <p style="background-color: rgb(61, 61, 61)">En contacto con la naturaleza, acampando en el Paraná.</p>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>En el rio Paraná</h5>
+              <p >En contacto con la naturaleza, acampando en el Paraná.</p>
             </div>
           </div>
-          <div class="carousel-item" style="background-color: rgb(61, 61, 61)">
+          <div class="carousel-item">
             <img src="cayasta2.jpg" class="d-block w-100" alt="Grupo de palistas">
-            <div class="carousel-caption d-none d-md-block" style="background-color: rgb(61, 61, 61)">
-              <h5 style="background-color: rgb(61, 61, 61)">Travesia Club Azopardo</h5>
-              <p style="background-color: rgb(61, 61, 61)">Socio del club nautico azopardo, disfrutando en grupo de la naturaleza.</p>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Travesia Club Azopardo</h5>
+              <p>Socio del club nautico azopardo, disfrutando en grupo de la naturaleza.</p>
             </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden" style="background-color: rgb(61, 61, 61)">Previous</span>
+          <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden" style="background-color: rgb(61, 61, 61)">Next</span>
+          <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <!--Fin del carrusell "traido" de bootstrap-->
      </div>
    
      <footer id="Pie">
-        Ultima actualización 24/2/23
+        Ultima actualización 25/2/23
     </footer>
     <script src="funciones.js"></script>
 </body>

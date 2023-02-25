@@ -1,49 +1,81 @@
+
+const ventanaCont = document.getElementById("VentanaContacto");
+const ventanaPers = document.getElementById("VentanaPersonal");
+const ventanaEst = document.getElementById("VentanaEstudios");
+const ventanaTrab = document.getElementById("VentanaTrabajo");
+const ventanaRes = document.getElementById("VentanaResumen");
+const ventanaOtros = document.getElementById("VentanaOtros");
+
+function cerrarTodo(){
+	ventanaCont.setAttribute('style', 'display: none');
+	ventanaPers.setAttribute('style', 'display: none');
+	ventanaEst.setAttribute('style', 'display: none');
+	ventanaTrab.setAttribute('style', 'display: none');
+	ventanaRes.setAttribute('style', 'display: none');
+	ventanaOtros.setAttribute('style', 'display: none');
+}
+
 document.getElementById("celda1").onclick=function(){
-	document.getElementById("VentanaContacto").style.display="block";
+	cerrarTodo();
+	ventanaCont.setAttribute('style', 'display: block');
 }
 
 document.getElementById("CerrarContacto").onclick=function(){
-	document.getElementById("VentanaContacto").style.display="none";
+	ventanaCont.setAttribute('style', 'display: none');
 }
 
 
 document.getElementById("celda2").onclick=function(){
-	document.getElementById("VentanaPersonal").style.display="block";
+	cerrarTodo();
+	ventanaPers.setAttribute('style', 'display: block');
 }
 
-document.getElementById("CerrarPersonal").onclick=function(){
-	document.getElementById("VentanaPersonal").style.display="none";
+document.getElementById("CerrarContacto").onclick=function(){
+	ventanaPers.setAttribute('style', 'display: none');
 }
 
 
 document.getElementById("celda3").onclick=function(){
-	document.getElementById("VentanaEstudios").style.display="block";
-	///document.getElementById("VentanaEstudios").style.overflow="scroll";
+	cerrarTodo();
+	ventanaEst.setAttribute('style', 'display: block');
+	window.scroll({
+		top: 0,
+		behavior: 'smooth'
+	  });
 }
 
 document.getElementById("CerrarEstudios").onclick=function(){
-	document.getElementById("VentanaEstudios").style.display="none";
+	ventanaEst.setAttribute('style', 'display: none');
 }
+
+
 document.getElementById("celda4").onclick=function(){
-	document.getElementById("VentanaTrabajo").style.display="block";
+	cerrarTodo();
+	ventanaTrab.setAttribute('style', 'display: block');
+	window.scroll({
+		top: 0,
+		behavior: 'smooth'
+	  });
 }
 
 document.getElementById("CerrarTrabajo").onclick=function(){
-	document.getElementById("VentanaTrabajo").style.display="none";
+	ventanaTrab.setAttribute('style', 'display: none');
 }
 
 document.getElementById("celda5").onclick=function(){
-	document.getElementById("VentanaResumen").style.display="block";
+	cerrarTodo();
+	ventanaRes.setAttribute('style', 'display: block');
 }
 
 document.getElementById("CerrarResumen").onclick=function(){
-	document.getElementById("VentanaResumen").style.display="none";
+	ventanaRes.setAttribute('style', 'display: none');
 }
 
 document.getElementById("celda6").onclick=function(){
-	document.getElementById("VentanaOtros").style.display="block";
+	cerrarTodo();
+	ventanaOtros.setAttribute('style', 'display: block');
 }
 
 document.getElementById("CerrarOtros").onclick=function(){
-	document.getElementById("VentanaOtros").style.display="none";
+	ventanaOtros.setAttribute('style', 'display: none');
 }
