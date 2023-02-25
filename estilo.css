@@ -184,7 +184,7 @@ footer{
 		top:30%;
 	}
 	.Reemplazo{
-		position: fixed;
+		position: absolute;
 		top:20%;
 		padding: 1%;
 	}
