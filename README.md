@@ -12,10 +12,4 @@ Herramientas y recursos utilizados.
 
 Desde ya que comprendo que sería muy útil asesorarme por un diseñador gráfico, pero creo que la estructura y el funcionamiento son correctos.
 
-Cosas que faltan:
--la carta de presentación
--estilo de la tabla
--estilo de las listas
--estilo del enlace a resumen
--el resumen en pdf (falta el qr, agregar la www)
--sacar los estilos del carrusell y llevarlos al css
+
