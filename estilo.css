@@ -168,7 +168,7 @@ footer{
 }
 
 @media only screen and (max-width: 700px) {
-	/* For mobile phones: */
+	/* Para moviles no rotados */
 	header{
 		padding:0.5%;
 		font-size:smaller;
@@ -187,7 +187,6 @@ footer{
 		position: absolute;
 		top:20%;
 		padding: 1%;
-		z-index:100;
 	}
 	#VentanaOtros{
 		width:100%;
@@ -205,3 +204,15 @@ footer{
 	footer{
 		text-align: right;
 	}
+}
+@media only screen and (max-height: 700px) {
+		/* Para moviles rotados */
+	.Emergente{
+		top:0%;
+		z-index:100;
+		}
+	.Reemplazo{
+		top:0%;
+		padding: 1%;
+		z-index:100;
+}		
