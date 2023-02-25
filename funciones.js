@@ -38,6 +38,7 @@ document.getElementById("CerrarPersonal").onclick=function(){
 document.getElementById("celda3").onclick=function(){
 	cerrarTodo();
 	ventanaEst.setAttribute('style', 'display: block');
+	document.getElementById("SobreMi").style.display="none";
 	window.scroll({
 		top: 0,
 		behavior: 'smooth'
@@ -45,6 +46,7 @@ document.getElementById("celda3").onclick=function(){
 }
 
 document.getElementById("CerrarEstudios").onclick=function(){
+	document.getElementById("SobreMi").style.display="block";
 	ventanaEst.setAttribute('style', 'display: none');
 }
 
