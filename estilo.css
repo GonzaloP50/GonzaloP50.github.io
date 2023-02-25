@@ -184,8 +184,11 @@ footer{
 		top:30%;
 	}
 	.Reemplazo{
+		position: fixed;
+		top:20%;
 		padding: 1%;
-		top:27%;
+		z-index: 100;
+
 	}
 	#VentanaOtros{
 		width:100%;

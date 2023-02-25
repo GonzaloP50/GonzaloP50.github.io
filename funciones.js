@@ -30,7 +30,7 @@ document.getElementById("celda2").onclick=function(){
 	ventanaPers.setAttribute('style', 'display: block');
 }
 
-document.getElementById("CerrarContacto").onclick=function(){
+document.getElementById("CerrarPersonal").onclick=function(){
 	ventanaPers.setAttribute('style', 'display: none');
 }
 
