@@ -39,6 +39,10 @@ document.getElementById("celda3").onclick=function(){
 	cerrarTodo();
 	ventanaEst.setAttribute('style', 'display: block');
 	document.getElementById("SobreMi").style.display="none";
+	window.scroll({
+		top: 0,
+		behavior: 'smooth'
+	  });
 }
 
 document.getElementById("CerrarEstudios").onclick=function(){
@@ -51,6 +55,10 @@ document.getElementById("celda4").onclick=function(){
 	cerrarTodo();
 	document.getElementById("SobreMi").style.display="none";
 	ventanaTrab.setAttribute('style', 'display: block');
+	window.scroll({
+		top: 0,
+		behavior: 'smooth'
+	  });
 }
 
 document.getElementById("CerrarTrabajo").onclick=function(){
