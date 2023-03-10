@@ -88,7 +88,7 @@ main{
 	
 }
 
-#TituloArticulo{
+h3 {
 	padding:1em;
 	text-align: center;
 	text-decoration: underline blue 2px;
@@ -205,7 +205,7 @@ footer{
 		text-align: right;
 	}
 }
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 500px) {
 		/* Para moviles rotados */
 	.Emergente{
 		top:0%;
